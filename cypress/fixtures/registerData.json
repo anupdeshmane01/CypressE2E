@@ -1,5 +1,8 @@
 {
-
+    "login":{
+        "username": "anup001@yopmail.com",
+        "password1": "Anup123!"
+    },
     "Firstname":"Anup",
     "Lastname":"Deshmane",
     "email": "anup001@yopmail.com",
