@@ -17,7 +17,6 @@ export class login {
     cy.get(this.webLocators.loginPassword).type(password);
   }
   loginBtn() {
-    cy.get(this.webLocators.loginBtn).click()
+    cy.get(this.webLocators.loginBtn).click();
   }
-
 }
