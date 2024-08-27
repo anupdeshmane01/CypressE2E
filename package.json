@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npx cypress run",
     "chrome-test": "npm run test --browser=chrome"
-    
   },
   "repository": {
     "type": "git",
@@ -15,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/cypress": "^10.0.2",
     "cypress": "^13.13.3",
     "cypress-mochawesome-reporter": "^3.8.2"
   }

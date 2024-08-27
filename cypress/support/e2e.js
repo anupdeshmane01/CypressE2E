@@ -17,6 +17,11 @@
 import './commands'
 import 'cypress-mochawesome-reporter/register';
 
+
+import {configure} from '@testing-library/cypress'
+configure({testIdAttribute: 'data-test-id'})
+
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
