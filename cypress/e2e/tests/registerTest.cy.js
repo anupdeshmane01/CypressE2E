@@ -15,8 +15,5 @@ describe('Test Registeration Form', () => {
     registerObj.checkBox()
     registerObj.clickOnContinue()
     registerObj.successUrl()
-  
-
-
   })
 })
