@@ -10,10 +10,11 @@ export class registerPage {
     continue: 'input[type="submit"]',
     alert: ".alert"
   };
-  openUrl() {
-    cy.visit(Cypress.env("URL"));
+  openUrl() {      
+    cy.visit(Cypress.env("URL"));    
+    
   }
-  enterFirstName(Fname) {
+  enterFirstName(Fname) { 
     cy.get(this.webLocators.firstName).type(Fname,{delay : 0});
   }
   enterLastName(Lname) {
