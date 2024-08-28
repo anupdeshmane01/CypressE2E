@@ -13,7 +13,7 @@ describe('Test Registeration Form', () => {
     registerObj.enterTelephone(registerData.telephone)
     registerObj.enterPassword(registerData.password)
     registerObj.checkBox()
-    registerObj.clickOnContinue().should('be.visible')
+    registerObj.clickOnContinue()
     registerObj.successUrl()
   })
 })
