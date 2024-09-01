@@ -15,10 +15,16 @@ describe("Checkout", () => {
     searchObj.allLaptops();
     searchObj.macbook();
     addCartObj.addToCart();
-    addCartObj.cart();
-    addCartObj.clearCart();
-    addCartObj.cart();
-    addCartObj.checkout();
+    if( addCartObj.cart()){
+      addCartObj.cart();
+      addCartObj.clearCart();
+      addCartObj.cart();
+      
+    }else{
+      addCartObj.checkout();
+    }
+   
+    
     if (checkObj.billContBtn) {
       checkObj.newAddressReadioBtn();
       newAddress();
