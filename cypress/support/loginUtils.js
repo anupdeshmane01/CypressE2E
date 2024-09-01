@@ -9,7 +9,7 @@ export function performLogin() {
   Login.loginURL();
   Login.loginEmail(registerData.login.username, { delay: 0 });
   Login.loginPassword(registerData.login.password1, { delay: 0 });
-  Login.loginBtn();
+  Login.loginBtn()
 }
 
 export function newAddress() {

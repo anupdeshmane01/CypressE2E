@@ -5,6 +5,15 @@ import registerData from "../../fixtures/registerData.json";
 
 describe("s", () => {
   it("a", () => {
-    performLogin();
+    performLogin()
+      cy.title().then(title => {
+        cy.log(`Page title is: ${title}`);
+        // Optionally, add an assertion if needed
+        // expect(title).to.equal('Expected Title');
+      });
+    
+    cy.log(cy.title())
+    
   });
 });
+
