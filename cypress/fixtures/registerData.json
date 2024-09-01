@@ -1,12 +1,11 @@
 {
-    
-    "login":{
-        "username": "anup001@yopmail.com",
-        "password1": "Anup123!"
-    },
-    "Firstname":"Anup",
-    "Lastname":"Deshmane",
-    "email": "anup00401@yopmail.com",
-    "password":"Anup123!",
-    "telephone":"9865326598"
+  "login": {
+    "username": "anup001@yopmail.com",
+    "password1": "Anup123!"
+  },
+  "Firstname": "Anup",
+  "Lastname": "Deshmane",
+  "email": "anup00401@yopmail.com",
+  "password": "Anup123!",
+  "telephone": "9865326598"
 }
