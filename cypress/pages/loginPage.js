@@ -11,7 +11,7 @@ export class login {
     );
   }
   loginEmail(email) {
-    cy.get(this.webLocators.loginEmail).type(email);
+    cy.get(this.webLocators.loginEmail).type(email)
   }
   loginPassword(password) {
     cy.get(this.webLocators.loginPassword).type(password);
