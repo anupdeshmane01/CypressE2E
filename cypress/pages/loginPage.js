@@ -5,6 +5,8 @@ export class login {
     loginBtn: 'input[type="submit"]',
   };
 
+  
+
   loginURL() {
     cy.visit(
       "https://naveenautomationlabs.com/opencart/index.php?route=account/login"
