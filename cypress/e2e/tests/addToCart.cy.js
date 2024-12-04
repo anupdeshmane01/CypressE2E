@@ -6,6 +6,7 @@ import registerData from "../../fixtures/registerData.json";
 describe("function created login", () => {
   it("a", () => {
     performLogin()
+    cy.log("Success login")
            });
  });
 
